@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/CodeMasterLtd/CripCoreManager/releases/tag/1.2.0",
-  "changelog": "• Introduced a Core Lock System to prevent profile switching until initial setup is completed, protecting users from accidental data loss.\n• Added First-Time Setup Initialization, automatically cloning existing GTA V mod folders into Game Build 1 for a safe starting point.\n• Implemented a new cripcore.ini system stored in the GTA V directory to manage core settings and persistence.\n• Added Update Notification Settings, allowing users to toggle alerts for CripCore, ScriptHookV, ScriptHookVDotNet, RageNativeUI, LemonUI and LSPDFR.\n• Improved update detection system with smarter version tracking and reduced false positives.\n• Added safeguards to prevent corrupted or incomplete profiles from being loaded.\n• Settings are now stored persistently outside the app (no reliance on localStorage).\n• Enhanced Core Settings page with interactive toggles for update notifications.\n• Improved overall stability and structure of profile management system.\n• Added a Core Downloads page, which allows CripCore users to download file's we have edited (More to come on this).",
-  "removed": "• Export & Import has been removed, This feature is no longer available due to licensing concerns. Since CripCore bundles assets into a ZIP file, sharing them could lead to redistribution of paid content.",
-  "bugfixes": "• Fixed an issue when launching the game where CripCore would sometimes override RagePluginHook. This has been resolved and should now launch correctly.\n• Fixed an issue when launching the game where CripCore message ERR_SYS_LOADFILE would popup. This has been resolved and should now launch correctly.\n• Fixed an issue where CripCore would occasionally remove ELS.ini. This has now been resolved.",  
-  "knownbugs" : "• None at this time."
+  "version": "2.0.0",
+  "url": "https://github.com/SmurfCustoms/SmurfCoreManager/releases/tag/2.0.0",
+  "changelog": "• The app is now SmurfCore, by Smurf Customs.\n• Profiles stay locked until you choose which folders or files belong to Game Build 1, Game Build 2, or Dev. Nothing in the GTA folder is moved until you save that choice.\n• You can assign a whole folder, or open it and assign only the files you want. Leave in game is never swapped.\n• Redesigned the home page and the profile switcher.\n• Key codes are split into Windows virtual-key codes and Stream Deck keyboard codes. Search, filter, and click a key to copy its code.\n• Settings can set a light, dark, or system theme, a wallpaper, an accent (outline, solid, or gradient), and an open sound.\n• Backups always include the four game executables, and you can add other files or folders from the GTA directory.",
+  "removed": "• The Core Downloads page has been removed.",
+  "bugfixes": "• None in this release.",
+  "knownbugs": "• None at this time."
 }
